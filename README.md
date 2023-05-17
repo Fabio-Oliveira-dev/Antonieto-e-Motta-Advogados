@@ -1,1 +1,5 @@
-# Landing page feita com HTML e CSS
+# Site Antonieto & Motta - Advogados
+
+## Tecnologias usadas
+-HTML
+-CSS
