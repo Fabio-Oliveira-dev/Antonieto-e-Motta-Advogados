@@ -21,6 +21,8 @@ header{
 #title{
     flex-direction: column;
     line-height: 10px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 20px;
 }
 
 li{
@@ -35,17 +37,6 @@ a{
 a:hover{
     color: rgb(132, 14, 201);
     transition: 0.3s all;
-}
-
-#inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
-    padding: 10px;
-    border-radius: 20px;
-}
-
-#inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
-    color: white;
 }
 
 h1{
@@ -69,6 +60,7 @@ p{
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
+    margin: 0px 0px 50px 50px;
 
 }
 
@@ -104,10 +96,79 @@ input{
     font-size: 15px;
 } */
 
+/*Pagina servicos*/
+.artigos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.artigos article p{
+    margin: 0px 0px 50px 0px;
+}
+
+/* .artigos article, p{
+    width: 300px;
+} */
+
+.artigos article, h3{
+    text-align: justify;
+}
+
+.artigos article img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 10px solid #fff;
+    width: 270px;
+    height: 250px;
+}
+
+
+/* Pagina Sobre*/
+#titulo-sobre{
+    font-size: 1.17em;
+    text-align: center;
+}
+
+.sobre, #artigo-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pagina Contatos*/
+#titulo-contatos{
+    text-align: center;
+    font-size: 1.17em;
+}
+
+.contatos-info, .contatos-lista li{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-mapa{
+    text-align: start;
+    margin: 20px 0px 0px 60px;
+}
+.contatos-info .mapa img{
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 50px 50px;
+}
+
+
 /*Rodapé*/
 h3{
     text-align: center;
 }
+
 .rodape {
     display: flex;
     flex-direction: row;
@@ -167,17 +228,3 @@ h3{
     height: 25px;
 }
 
-/*Pagina servicos*/
-.artigos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
-}
-.artigos article img{
-    border: 10px solid white;
-    width: 270px;
-    height: 250px;
-    border-radius: 10px;
-}
