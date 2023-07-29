@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,72 +8,78 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/media.css">
+
+    <link rel="shortcut icon" href="./components/icon/balanca.png" type="image/x-icon">
 </head>
 <body>
+    <section class="redes_sociais">
+            <span id="imagens">
+                <a href="#"><img id="facebook" src="./components/icon/facebook.png" alt="facebook"></a>
+                <a href="#"><img id="instagram" src="./components/icon/Instagram.png" alt="instagram"></a>
+            </span>
+    </section>
+    
+
     <!--Cabeçalho-->
-    <header>
-        <div id="title">
-            <h1>Antonieto & Motta - Advogados</h1>
-            
-        </div>
+    <section class="cabecalho_principal">
+        <header class="logo">
+            <span id="logo">
+                <h1>Antonieto & Motta</h1>
+                <h3>Advogados</h3>
+            </span>
+        </header>
+        <main class="menu_principal">
+            <ul>
+                <a href="index.html"><li>Início</li></a>
+                <a href="servicos.html"><li>Serviços</li></a>
+                <a href="sobre.html"><li>Sobre</li></a>
+                <a href="contatos.html"><li>Contatos</li></a>
+            </ul>
+        </main>
+    </section>
+    
 
-        <ul>
-            <a href="index.html"><li>Início</li></a>
-            <a href="servicos.html"><li>Serviços</li></a>
-            <a href="sobre.html"><li>Sobre</li></a>
-            <a href="contatos.html"><li>Contatos</li></a>
-        </ul>
-    </header>
+    <!--Parte principal da página-->
+    <section class="caixa_principal">
+        
+        <img id="deusa_grega1" src="./components/images/deusa_grega_cortada.png" alt="deusa_grega_cortada">
 
-    <!--Parte principal do site-->
-    <main class="inicio" id="inicio">
-        <aside>
-            <!-- <h2><span>Inscreva-se agora</span></h2> -->
-            <h2>Advocacia Especializada</h2>
-            <p>
-                "Somos um escritório de advocacia dedicado a fornecer serviços jurídicos de alta qualidade e soluções eficazes para nossos clientes. Com uma equipe experiente e comprometida, estamos preparados para enfrentar uma ampla gama de desafios legais, sempre buscando proteger os interesses e direitos de nossos clientes. <br>
-                <br>
-                Nossa filosofia é baseada na excelência, ética profissional e atendimento personalizado. Acreditamos que cada caso é único e merece uma abordagem personalizada, adaptada às necessidades específicas de nossos clientes. Valorizamos a confiança e a transparência em nossas relações, trabalhando em estreita colaboração com nossos clientes para entender seus objetivos e encontrar as melhores soluções legais.
-            </p>
-
-            <!-- <form action="">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <input type="submit" value="Enviar >">
-            </form> -->
-        </aside>
-
-        <article>
-            <!-- <img src="./components/images/77d0a7c454e658833800528e748edbe9.png" alt="mulher-roxa"> -->
+        <article class="caixa1_artigo">
+                <header class="titulos">
+                    <h2 id="titulo_caixa1">Advocacia</h2>
+                    <h2 id="titulo_caixa1">Especializada</h2>
+                </header>
+                
+                <p id="paragrafo1">
+                    "Somos um escritório de advocacia atuando em diversas areas do direito dedicados a fornecer serviços jurídicos de alta qualidade e soluções eficazes para nossos clientes. Com uma equipe experiente e comprometida, estamos preparados para enfrentar uma ampla gama de desafios legais, sempre buscando proteger os interesses e direitos de nossos clientes.
+                </p>
+                
+                <p id="paragrafo2">
+                    Nossa filosofia é baseada em 3 pilares principais. A excelência, a ética profissional e o atendimento personalizado. Acreditamos que cada caso é único e merece uma abordagem personalizada, adaptada às necessidades específicas de nossos clientes. Valorizamos a confiança e a transparência em nossas relações, trabalhando em estreita colaboração com nossos clientes para entender seus objetivos e encontrar as melhores soluções legais.
+                </p>
         </article>
-    </main>
 
-    <!--Rodapé da pegina-->
+        <span class="caixa2"></span>
+    </section>
+
+
+    <!--Rodapé da página-->
     <footer class="rodape">
 
         <ul class="informacoes">
             <li id="endereco">Endereço
-                <div>Rua Silvio Martinho 180, Centro de Nova Iguaçu - RJ - CEP: 00000-000</CEP></div>
-            </li>
+                <div> Rua Silvio Martinho 180, Centro de Nova Iguaçu - RJ - CEP: 00000-000</div></li>
+
             <li id="contatos">Contatos
                 <div>Telefone: 21 0000-00000</div>
-                <div>Email: email@gmail.com</div>
+                <div>E-mail: email@gmail.com</div>
             </li>
         </ul>
 
-        <ul class="direitos">
-            <!-- <p id="direito-reservado">Todos os direitos reservados - 2023</p> -->
-            <p id="desenvolvido-por">2023 Desenvolvido por: <a href="https://www.instagram.com/fabio.oliveira92/"> Fábio Oliveira</a></p>
-        </ul>
-        
-
-        <ul class="redes">Redes Sociais
-            <div class="imagens">
-                <a href="#"><img id="facebook" src="./components/icon/facebook.png" alt="facebook"></a>
-                <a href="#"><img id="instagram" src="./components/icon/Instagram.png" alt="instagram"></a>
-            </div>
-            
+        <ul class="producao">
+            <div id="dev">2023 - Desenvolvido por <a href="https://www.linkedin.com/in/fabio-oliveira-a8a60321b/"> Fábio Oliveira</a></div>
         </ul>
     </footer>
+    
 </body>
 </html>

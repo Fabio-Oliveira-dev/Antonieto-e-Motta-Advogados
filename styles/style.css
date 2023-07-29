@@ -1,28 +1,41 @@
 body{
-    background-color: rgb(34, 34, 34);
+    background-color: rgba(56, 56, 56, 0.1);
     color: white;
     font-family: poppinsregular;
     max-width: 1300px;
+    max-height: 768px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 5px;
 }
 
-header{
+.redes, .imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0px 20px 10px 0px;
+    
+}
+.redes .imagens, #facebook, #instagram{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+#facebook:hover, #instagram:hover{
+    border-radius: 15px;
+    background-color: #fff;
+    transition: 0.1s all;
+    transform: scale(1.1);
+}
+
+header>.logo{
+    background-color: rgb(3, 3, 3);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(3, 3, 3, 0.2);
-    padding: 15px;
-    border-radius: 10px;
-}
-
-
-#title{
-    flex-direction: column;
-    line-height: 10px;
-    text-transform: uppercase;
-    margin: 0px 0px 0px 20px;
+    color: #B8860B;
+    padding: 5px;
 }
 
 li{
@@ -35,196 +48,71 @@ a{
 }
 
 a:hover{
-    color: rgb(132, 14, 201);
+    color: #B8860B;
     transition: 0.3s all;
 }
 
-h1{
-    font-weight: 200;
-}
-
-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
-
-h2{
-    font-size: 56px;
-    line-height: 10px;
-    font-family: poppinsmedium;
-}
-
-
-p{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
-    margin: 0px 0px 50px 50px;
-
-}
-
-/* img{
-    width: 620px;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-
-}
-
-form [type="submit"]{
-    height: 50px;
-    width: 50%;
-    background-color: rgb(132, 14, 201);
-    color: white;
-    font-weight: bold;
-}
-
-form [type="submit"]:hover{
-    cursor: pointer;
-}
-
-input{
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    font-size: 15px;
-} */
-
-/*Pagina servicos*/
-.artigos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.artigos article p{
-    margin: 0px 0px 50px 0px;
-}
-
-/* .artigos article, p{
-    width: 300px;
-} */
-
-.artigos article, h3{
-    text-align: justify;
-}
-
-.artigos article img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 10px solid #fff;
-    width: 270px;
-    height: 250px;
-}
-
-
-/* Pagina Sobre*/
-#titulo-sobre{
-    font-size: 1.17em;
-    text-align: center;
-}
-
-.sobre, #artigo-sobre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-/* Pagina Contatos*/
-#titulo-contatos{
-    text-align: center;
-    font-size: 1.17em;
-}
-
-.contatos-info, .contatos-lista li{
-    display: flex;
-    flex-direction: column;
-}
-
-.titulo-mapa{
-    text-align: start;
-    margin: 20px 0px 0px 60px;
-}
-.contatos-info .mapa img{
-    width: 400px;
+.deusa_grega img{
+    position: absolute;
+    width: 350px;
     height: 400px;
-    margin: 0px 0px 50px 50px;
 }
 
-
-/*Rodapé*/
-h3{
-    text-align: center;
+.deusa_grega img{
+    top: 162px;
+    right: 180px;
 }
 
-.rodape {
+.caixa_principal{
     display: flex;
     flex-direction: row;
-    background-color: rgb(3, 3, 3, 0.2);
-    border-radius: 10px;
+    margin: 10px auto;
+}
+
+header>#titulo_caixa1{
+    background-color: aquamarine;
+    line-height: 1.2;
+    margin: 0;
     
+    font-size: 25px;
 }
 
-.rodape ul div p[a]{
-    display: flex;
-    justify-content: space-between;
+.caixa_1, p#paragrafo1{
+    width: 70%;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.1;
+    margin: 0;
 }
 
-.informacoes{
+.caixa_1, p#paragrafo2{
+    width: 70%;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 15px;
+}
+
+.caixa_1{
     display: flex;
     flex-direction: column;
+    background-color: #fff;
+    width: 75%;
+    height: 390px;
 }
 
-.direitos{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+
+.caixa_2{
+    background-color: rgb(128,128,0);
+    width: 25%;
+    height: 390px;
 }
 
-.direitos #desenvolvido-por{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 20px;
 }
-
-.direitos #desenvolvido-por a{
-    text-decoration: none;
-}
-
-.redes .imagens{
-    display: flex;
-    justify-content: end;
-}
-
-.rede .imagens, img{
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-    width: 20px;
-    height: 20px;
-}
-
-.rede .imagens, #facebook{
-    width: 30px;
-}
-
-.rede .imagens, img:hover{
-    /* transition: 0.3s all; */
-    width: 25px;
-    height: 25px;
-}
-

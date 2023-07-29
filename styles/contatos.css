@@ -1,0 +1,85 @@
+/* Pagina Contatos*/
+/* #titulo-contatos{
+    text-align: center;
+    font-size: 1.17em;
+}
+
+.contatos-info, .contatos-lista li{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-mapa{
+    text-align: start;
+    margin: 20px 0px 0px 60px;
+}
+.contatos-info .mapa img{
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 50px 50px;
+} */
+
+
+/*Rodapé*/
+/* h3{
+    text-align: center;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 3, 3, 0.2);
+    border-radius: 10px;
+    
+}
+
+.rodape ul div p[a]{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.direitos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.direitos #desenvolvido-por{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.direitos #desenvolvido-por a{
+    text-decoration: none;
+}
+
+.redes .imagens{
+    display: flex;
+    justify-content: end;
+}
+
+.rede .imagens, img{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.rede .imagens, #facebook{
+    width: 30px;
+}
+
+.rede .imagens, img:hover{
+    transition: 0.3s all;
+    width: 25px;
+    height: 25px;
+} */
