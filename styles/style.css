@@ -67,60 +67,75 @@ a:hover{
     transition: 0.3s all;
 }
 
-.deusa_grega img{
+img#deusa_grega1{
     position: absolute;
     width: 350px;
     height: 400px;
 }
 
-.deusa_grega img{
-    top: 162px;
+img#deusa_grega1{
+    top: 212px;
     right: 180px;
 }
 
 .caixa_principal{
     display: flex;
     flex-direction: row;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
-header>#titulo_caixa1{
-    background-color: aquamarine;
+.titulos #titulo1_caixa1, #titulo2_caixa1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     line-height: 1.2;
-    margin: 0;
-    
-    font-size: 25px;
+    color: #000000;
+    margin: 20px 0px 0px 10px;
 }
 
-.caixa_1, p#paragrafo1{
+#titulo1_caixa1{
+    color: #000000;
+    font-size: 30px;
+}
+
+#titulo2_caixa1{
+    color: #000000;
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+#paragrafo1{
     width: 70%;
-    background-color: blue;
-    color: rgb(0, 0, 0);
+    color: #000000;
     text-align: justify;
     font-size: 15px;
-    line-height: 1.1;
-    margin: 0;
+    line-height: 1.2;
+    margin: 20px 0px 0px 110px;
 }
 
-.caixa_1, p#paragrafo2{
-    width: 70%;
-    background-color: blue;
-    color: rgb(0, 0, 0);
+#paragrafo2{
+    width: 68%;
+    color: #000000;
     text-align: justify;
     font-size: 15px;
+    line-height: 1.2;
+    margin: 10px 0px 0px 175px;
 }
 
-.caixa_1{
+.caixa1_artigo{
     display: flex;
     flex-direction: column;
     background-color: #fff;
     width: 75%;
-    height: 390px;
+    max-height: 390px;
+    border-radius: 3px 0px 0px 3px;
 }
 
 
-.caixa_2{
+.caixa2{
     background-color: rgb(128,128,0);
+    border-radius: 0px 3px 3px 0px;
     width: 25%;
     height: 390px;
 }
